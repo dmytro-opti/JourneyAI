@@ -2,6 +2,14 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TravellerAI", "TravellerAI\TravellerAI.csproj", "{987982DE-2B15-4B24-9959-640CDE522841}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TravellerAI.Domain", "TravellerAI.Domain\TravellerAI.Domain.csproj", "{449DC0E5-F4E3-4E30-8645-AAB5FFE7B90D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TravellerAI.Core", "TravellerAI.Core\TravellerAI.Core.csproj", "{F4E24F64-A65A-4687-BC6B-D0FECB0F69ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TravellerAI.Infrastructure.Db.Mssql", "TravellerAI.Infrastructure.Db.Mssql\TravellerAI.Infrastructure.Db.Mssql.csproj", "{5F686504-2EE1-4B2F-A6D6-3BD4141480D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TravellerAI.WebApi", "TravellerAI.WebApi\TravellerAI.WebApi.csproj", "{DAE52D2D-0D3D-4BD5-B4E7-985A88C87023}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +20,21 @@ Global
 		{987982DE-2B15-4B24-9959-640CDE522841}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{987982DE-2B15-4B24-9959-640CDE522841}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{987982DE-2B15-4B24-9959-640CDE522841}.Release|Any CPU.Build.0 = Release|Any CPU
+		{449DC0E5-F4E3-4E30-8645-AAB5FFE7B90D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{449DC0E5-F4E3-4E30-8645-AAB5FFE7B90D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{449DC0E5-F4E3-4E30-8645-AAB5FFE7B90D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{449DC0E5-F4E3-4E30-8645-AAB5FFE7B90D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4E24F64-A65A-4687-BC6B-D0FECB0F69ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4E24F64-A65A-4687-BC6B-D0FECB0F69ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4E24F64-A65A-4687-BC6B-D0FECB0F69ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4E24F64-A65A-4687-BC6B-D0FECB0F69ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F686504-2EE1-4B2F-A6D6-3BD4141480D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F686504-2EE1-4B2F-A6D6-3BD4141480D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F686504-2EE1-4B2F-A6D6-3BD4141480D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F686504-2EE1-4B2F-A6D6-3BD4141480D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAE52D2D-0D3D-4BD5-B4E7-985A88C87023}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAE52D2D-0D3D-4BD5-B4E7-985A88C87023}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAE52D2D-0D3D-4BD5-B4E7-985A88C87023}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAE52D2D-0D3D-4BD5-B4E7-985A88C87023}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
